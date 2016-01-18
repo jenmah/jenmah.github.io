@@ -1,0 +1,447 @@
+body, html { 
+  padding: 0; 
+  margin: 0; 
+  width: 100%;
+  height: 100%;
+  border: 15px solid white;
+  background: rgba(211, 203, 189, 0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jennifer-mah {
+  margin-top: 45%;
+  // width: 30em;
+  // border: 1px solid blue;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 8em;
+  margin: 0;
+  line-height: 1em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+  /*font-weight: 400;*/
+  color: rgba(90, 90, 90, 1);
+}
+
+.portfolio-h3 {
+  font-size: 2.5em;
+}
+
+#portfolio-h4-text {
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  /*border: 1px solid purple;*/
+}
+
+.profile-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  // margin-bottom: 15%;
+}
+
+.introduction-container {
+  // border: 1px solid purple;
+  margin-bottom: 9%;
+}
+
+.profile-photo {
+  width: 22%;
+  z-index: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.profile-text {
+  position: relative;
+  // border: 1px solid white;
+  vertical-align: middle;
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+  z-index: 100;
+  /*border-left: 1px solid white;*/
+}
+
+#profile-paragraph-text {
+  font-size: 1.4em;
+  margin-right: -3em;
+  z-index: 99;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.scroll-down {
+  margin-top: 5%:
+}
+
+.experience-section {
+  margin: 0 auto;
+  width: 65%;
+  // border: 1px solid red;
+}
+
+.portfolio-piece {
+  vertical-align: top;
+  border: 1px solid blue;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+}
+
+.work-experience-block:hover {
+  margin-left: 10%;
+}
+
+.work-experience {
+  // margin-top: 2%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+.work-experience-date {
+  display: inline-block;
+  text-align: right;
+}
+
+.work-experience-job {
+  /*border: 1px solid purple;*/
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.work-experience-location {
+  /*border: 1px solid purple;*/
+  display: inline-block;
+}
+
+.about-page-headers {
+  text-align: left;
+}
+
+.one {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  text-align: right;
+  margin: 0;
+  /*border: 1px solid grey;*/
+}
+
+.two {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin: 0;
+  /*border: 1px solid grey;*/
+}
+
+.three {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+  margin: 0;
+  /*border: 1px solid grey;*/
+}
+
+
+.darker-about-text {
+  color: #A1947D;
+}
+
+.darker-date-text {
+  color: #A1947D;
+  margin-right: 1em;
+}
+
+.darker-design-text {
+  color: rgba(45, 45, 45, 1);
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#darker-portfolio-h2-text {
+  color: #A1947D;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: 300;
+  font-size: 0.7em;
+  line-height: 2.8em;
+
+}
+
+h6 {
+  font-size: 0.7em;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+#darker-date-h2-text {
+  color: #A1947D;
+  /*border: 1px solid grey;*/
+  /*display: block;*/
+  margin: 0;
+  margin-right: 5%;
+  font-size: 0.7em;
+  line-height: 2.8em;
+}
+
+#job-h4-text {
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  line-height: 1.9em;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  /*border: 1px solid purple;*/
+}
+
+#location-h2-text {
+  color: #A1947D;
+  text-align: right;
+  /*border: 1px solid grey;*/
+  /*display: block;*/
+  margin: 0;
+  font-size: 0.7em;
+  line-height: 2.8em;
+}
+
+.contact-section {
+  margin: 0 auto;
+  // border: 1px solid blue;
+  text-align: center;
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.contact-box {
+  width: 30%;
+  display: inline-block;
+  // border: 1px solid red;
+  text-align: left;
+  margin-top: 5%;
+  margin-right: 2%;
+}
+
+#h2-no-margin {
+  margin: 0;
+  color: #A1947D;
+  font-size: 0.8em;
+}
+
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.grey-top-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 9em 95em;
+  border-color: transparent transparent rgba(100, 100, 100, 1) transparent;
+}
+
+.grey-square {
+  background-color: rgba(100, 100, 100, 1);
+  // width: 100%;
+  height: 24em;
+  padding-top: 3.5em;
+  padding-bottom: 5em;
+}
+
+.grey-bottom-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9em 95em 0 0;
+  border-color: rgba(100, 100, 100, 1) transparent transparent transparent;
+}
+
+.photo-block {
+  vertical-align: top;
+  text-align: center;
+  width: 69%;
+  display: inline-block;
+  // height: 100%;
+  background-color: rgba(235, 235, 235, 1);
+}
+
+.information-block {
+  vertical-align: top;
+  width: 30%;
+  display: inline-block;
+  // background-color: white;
+  height: 100%;
+  // margin-top: 5%;
+  // padding-left: 2%;
+  padding: 5% 3%;
+}
+
+.portfolio-image-width-75 {
+  margin: 0 auto;
+  border: 1px solid rgba(190, 190, 190, 0.8);
+  width: 75%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+
+.portfolio-image-width-32 {
+  margin: 0 auto;
+  border: 1px solid rgba(190, 190, 190, 0.8);
+  width: 32.5%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  display: block;
+}
+
+.portfolio-image-width-28 {
+  margin: 0 auto;
+  border: 1px solid rgba(190, 190, 190, 0.8);
+  width: 28%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  display: block;
+}
+
+
+.portfolio-image-width-65 {
+  margin: 0 auto;
+  border: 1px solid rgba(190, 190, 190, 0.8);
+  width: 65%;
+  margin-bottom: 7%;
+  margin-top: 7%;
+  display: block;
+}
+
+
+@media screen and (max-width: 65em) {
+  .profile-text {
+    width: 40%;
+    /*text-align: left;*/
+    /*display: block;*/
+    font-size: 0.9em;
+  }
+  .profile-photo {
+    width: 30%;
+    /*display: block;*/
+  }
+  #job-h4-text {
+    font-weight: 400;
+    text-align: 0.7em;
+    line-height: 1.8em;
+    // border: 1px solid purple;
+  }
+  .two {
+    width: 50%;
+  }
+  .contact-h3 {
+    font-size: 1em;
+  }
+}
+
+
+@media screen and (max-width: 75em) {
+  h1 {
+    font-size: 6em;
+  }
+  #job-h4-text {
+    font-size: 0.8em;
+    // border: 1px solid purple;
+    line-height: 2.2em;
+  }
+}
+
+
+@media screen and (max-width: 55em) {
+  .contact-box {
+    // display: block;
+    margin-bottom: 3em;
+  }
+  #h2-no-margin {
+    font-size: 0.5em;
+  }
+  .contact-h3 {
+    font-size: 0.8em;
+  }
+  #job-h4-text {
+    font-size: 0.7em;
+    // border: 1px solid blue;
+    line-height: 2.55em;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  h1 {
+    // color: blue;
+    font-size: 5em;
+  }
+}
+
+
+@media screen and (max-width: 30em) {
+  .profile-text {
+    width: 50%;
+    text-align: left;
+    display: block;
+    font-size: 1em;
+  }
+  .profile-photo {
+    width: 70%;
+    display: block;
+  }
+  .contact-box {
+    display: block;
+  }
+}
+
+
