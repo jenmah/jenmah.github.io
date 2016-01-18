@@ -54,7 +54,8 @@ p {
 #portfolio-h4-text {
   display: inline-block;
   font-weight: 400;
-  color: white;
+  font-size: 2em;
+  color: #A1947D;
   font-family: 'Playfair Display', serif;
   margin: 0;
   /*border: 1px solid purple;*/
@@ -111,8 +112,9 @@ p {
 
 .portfolio-section {
   margin: 0 auto;
-  width: 65%;
+  width: 75%;
   text-align: center;
+  /*border: 1px solid red;*/
 }
 
 .portfolio-piece {
@@ -122,6 +124,10 @@ p {
   text-align: center;
   width: 30%;
   display: inline-block;
+}
+
+.extra-margin {
+  margin: 0 2%;
 }
 
 .work-experience-block:hover {
@@ -140,13 +146,11 @@ p {
 }
 
 .work-experience-job {
-  /*border: 1px solid purple;*/
   display: inline-block;
   margin-right: 10%;
 }
 
 .work-experience-location {
-  /*border: 1px solid purple;*/
   display: inline-block;
 }
 
@@ -156,7 +160,7 @@ p {
 
 .design-page-header {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .one {
@@ -209,7 +213,7 @@ h2 {
 }
 
 #darker-portfolio-h2-text {
-  color: #A1947D;
+  color: white;
   letter-spacing: 3px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -232,8 +236,6 @@ h6 {
 
 #darker-date-h2-text {
   color: #A1947D;
-  /*border: 1px solid grey;*/
-  /*display: block;*/
   margin: 0;
   margin-right: 5%;
   font-size: 0.7em;
@@ -305,7 +307,7 @@ h3 {
 .grey-square {
   background-color: rgba(100, 100, 100, 1);
   /*// width: 100%;*/
-  height: 20em;
+  height: 18em;
   padding-top: 3.5em;
   padding-bottom: 5em;
 }
@@ -397,7 +399,27 @@ h3 {
   .contact-h3 {
     font-size: 1em;
   }
+  #portfolio-h4-text {
+    font-size: 1.5em;
+  }
+  .grey-square {
+  height: 15em;
+  }
 }
+
+@media screen and (max-width: 81em) {
+  h1 {
+    font-size: 5.5em;
+  }
+  #job-h4-text {
+    font-size: 0.8em;
+    line-height: 2.2em;
+  }
+  .contact-h3 {
+    font-size: 1.1em;
+  }
+}
+
 
 
 @media screen and (max-width: 75em) {
@@ -427,6 +449,12 @@ h3 {
   #job-h4-text {
     font-size: 0.7em;
     line-height: 2.55em;
+  }
+  #portfolio-h4-text {
+    font-size: 1.2em;
+  }
+  .grey-square {
+  height: 13em;
   }
 }
 
