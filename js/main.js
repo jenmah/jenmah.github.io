@@ -1,16 +1,16 @@
 $(document).ready(function() {
   console.log('main.js linked!');
 
-  $(window).scroll(function() {
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
-    if ($(this).scrollTop()>0) {
+    if (scroll >= 50) {
       console.log('inside if');
-        $('.scroll-down').fadeOut();
-     } else {
+        $(".clearHeader").addClass("darkHeader");
+    } else {
       console.log('inside else');
-      $('.scroll-down').fadeIn();
-     }
- });
-
+        $(".clearHeader").removeClass("darkHeader");
+    }
+});
 
 })
